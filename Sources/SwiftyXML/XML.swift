@@ -21,6 +21,9 @@
 //  THE SOFTWARE.
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 public enum XMLSubscriptKey {
     case index(Int)          // such as: 1
